@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>My Vitual BookShelf</title>
+   <link rel="stylesheet" href="stylingsab.css">
+
+  </head>
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+       <li ><a href="page4.html"> Bookstore </a></li> 
+       <li><a href="page3.html">About us</a></li>
+        <li style="float:right"><a class="active" href="hhhh.html">Help</a></li>
+    </ul>
+<style>
+body, html {
+height: 100%;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(images/221.jpeg);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+* {
+box-sizing: border-box;
+}
+ul{
+background-color:transparent;
+backdrop-filter:blur(2px);
+
+
+}
+
+.bg-text {
+background-color: rgb(61, 52, 42);
+background-color: rgba(26, 21, 17, 0.4);
+backdrop-filter:blur(3px);
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 50%;
+padding: 20px;
+text-align: center;
+}
+</style>
+<div class="bg-image"></div>  
+<div class="bg-text">
+  <div class="sav">
+<img src="images/imageedit_3_8746541855.png" height="140px" width="305px">
+<h1>My virtual Bookshelf</h1> </div>
+<div class="sabr">
+<p style="font-size: xx-large;"> 
+ “A <em>room </em>without books is like a body without a <em>soul</em>.”
+</p>
+<p style="float:right; font-size: smaller;">· Jane Austen</p>
+</div>
+</div>
+<style> 
+.bg-text{
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+.sabr{
+  border-left:2px solid white; 
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+
+<style>
+li:hover ~ li p {
+  animation: wave-animation 0.3s infinite;
+}
+
+@keyframes wave-animation {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+ </style>   
+
+    <div class="footer">
+      <ul id ="sab">
+          <li class="sab"><a href="https://twitter.com/">Twitter</a> </li>
+          <li class="sab"><a href="https://codepen.io/">Facebook</a></li>
+          <li class="sab"><a href="sabrinshemsu@gmail.com">Email</a></li>
+          <li class="sab"><a href="https://dribbble.com/">Dribbble</a></li>
+          <li class="sab"><a href="https://github.com/sabrinshems">Github</a></li>
+          <li class="sab" >
+        <p>👋</p>
+          </li>
+          <li class="sab" style="float: right;text-transform: uppercase;"><a href="index.html">Back to Top</a> 
+          </li>
+        </ul>
+    </div>
+  <style> 
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color:wheat;
+        text-align: center;
+      }
+      </style>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
